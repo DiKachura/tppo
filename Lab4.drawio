@@ -1,9 +1,136 @@
-<mxfile host="app.diagrams.net" modified="2023-10-29T08:59:06.828Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.5845.888 YaBrowser/23.9.0.0 Safari/537.36" version="22.0.8" etag="4iHBSCAGwrSA6LPCf3ys" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-29T09:17:13.799Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.5845.888 YaBrowser/23.9.0.0 Safari/537.36" etag="0azIKNZ45qxcfnR0_nyi" version="22.0.8" type="github">
   <diagram name="Страница — 1" id="vQouEIOPN6PkB7e56rXw">
-    <mxGraphModel>
+    <mxGraphModel dx="1345" dy="669" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="YkaTNAlfi6WA_vxyaF2H-2" value="Регистрация в системе" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="204" y="462" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YkaTNAlfi6WA_vxyaF2H-3" value="Создание модели" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="391" y="575" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YkaTNAlfi6WA_vxyaF2H-5" value="Моделирование вольтамперных характеристик" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="616" y="653" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YkaTNAlfi6WA_vxyaF2H-8" value="Генерация отчета" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="864" y="501" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YkaTNAlfi6WA_vxyaF2H-9" value="Данные о клиенте" style="endArrow=classic;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="YkaTNAlfi6WA_vxyaF2H-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="6" y="492" as="sourcePoint" />
+            <mxPoint x="62" y="462" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YkaTNAlfi6WA_vxyaF2H-10" value="Документация об &lt;br&gt;обработке персональных &lt;br&gt;данных" style="endArrow=classic;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="YkaTNAlfi6WA_vxyaF2H-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="264" y="366" as="sourcePoint" />
+            <mxPoint x="233" y="372" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YkaTNAlfi6WA_vxyaF2H-24" value="" style="endArrow=none;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="YkaTNAlfi6WA_vxyaF2H-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="595" y="666" as="sourcePoint" />
+            <mxPoint x="356" y="492" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YkaTNAlfi6WA_vxyaF2H-25" value="Профиль клиента" style="endArrow=none;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="355" y="494" as="sourcePoint" />
+            <mxPoint x="355" y="606" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YkaTNAlfi6WA_vxyaF2H-26" value="" style="endArrow=classic;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="YkaTNAlfi6WA_vxyaF2H-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="356" y="605" as="sourcePoint" />
+            <mxPoint x="645" y="616" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YkaTNAlfi6WA_vxyaF2H-27" value="Требования к данным" style="endArrow=classic;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" target="YkaTNAlfi6WA_vxyaF2H-3">
+          <mxGeometry x="-0.3055" width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="8" y="620" as="sourcePoint" />
+            <mxPoint x="639" y="299" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YkaTNAlfi6WA_vxyaF2H-29" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="YkaTNAlfi6WA_vxyaF2H-28" target="YkaTNAlfi6WA_vxyaF2H-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YkaTNAlfi6WA_vxyaF2H-28" value="Пользователь системы" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="209" y="716" width="106" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="YkaTNAlfi6WA_vxyaF2H-31" value="" style="endArrow=none;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="YkaTNAlfi6WA_vxyaF2H-28">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="391" y="776" as="sourcePoint" />
+            <mxPoint x="450" y="731" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YkaTNAlfi6WA_vxyaF2H-32" value="" style="endArrow=classic;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" target="YkaTNAlfi6WA_vxyaF2H-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="451" y="730" as="sourcePoint" />
+            <mxPoint x="600" y="809" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YkaTNAlfi6WA_vxyaF2H-33" value="" style="endArrow=none;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" target="YkaTNAlfi6WA_vxyaF2H-28">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="262" y="873" as="sourcePoint" />
+            <mxPoint x="268" y="796" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YkaTNAlfi6WA_vxyaF2H-34" value="" style="endArrow=none;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="YkaTNAlfi6WA_vxyaF2H-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="540" y="594" as="sourcePoint" />
+            <mxPoint x="552" y="605" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YkaTNAlfi6WA_vxyaF2H-35" value="Данные &lt;br&gt;модели" style="endArrow=none;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="552" y="686" as="sourcePoint" />
+            <mxPoint x="552" y="608" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YkaTNAlfi6WA_vxyaF2H-36" value="" style="endArrow=classic;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="YkaTNAlfi6WA_vxyaF2H-5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="551" y="682" as="sourcePoint" />
+            <mxPoint x="559" y="712" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YkaTNAlfi6WA_vxyaF2H-37" value="" style="endArrow=none;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="YkaTNAlfi6WA_vxyaF2H-5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="769" y="681" as="sourcePoint" />
+            <mxPoint x="815" y="683" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YkaTNAlfi6WA_vxyaF2H-38" value="Сведения о моделировании" style="endArrow=none;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="819" y="684" as="sourcePoint" />
+            <mxPoint x="819" y="536" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YkaTNAlfi6WA_vxyaF2H-39" value="" style="endArrow=classic;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="YkaTNAlfi6WA_vxyaF2H-8">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="821" y="534" as="sourcePoint" />
+            <mxPoint x="871" y="403" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YkaTNAlfi6WA_vxyaF2H-40" value="" style="endArrow=none;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;exitX=1;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="YkaTNAlfi6WA_vxyaF2H-28">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="408" y="809" as="sourcePoint" />
+            <mxPoint x="928" y="751" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YkaTNAlfi6WA_vxyaF2H-41" value="" style="endArrow=classic;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" target="YkaTNAlfi6WA_vxyaF2H-8">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="927" y="747" as="sourcePoint" />
+            <mxPoint x="965" y="685" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YkaTNAlfi6WA_vxyaF2H-42" value="&lt;br&gt;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;предсказания вольтамперных &lt;br&gt;характеристик, сгенерированных &lt;br&gt;нейронной сетью&lt;/span&gt;&lt;br&gt;" style="endArrow=classic;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="983" y="531" as="sourcePoint" />
+            <mxPoint x="1279" y="536" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
