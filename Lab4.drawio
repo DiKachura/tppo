@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-10-29T09:17:13.799Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.5845.888 YaBrowser/23.9.0.0 Safari/537.36" etag="0azIKNZ45qxcfnR0_nyi" version="22.0.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-29T09:30:21.390Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.5845.888 YaBrowser/23.9.0.0 Safari/537.36" etag="Vzd5WuHe2OO7vUYW6HU9" version="22.0.8" type="github">
   <diagram name="Страница — 1" id="vQouEIOPN6PkB7e56rXw">
-    <mxGraphModel dx="1345" dy="669" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="909" dy="669" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -56,7 +56,7 @@
         <mxCell id="YkaTNAlfi6WA_vxyaF2H-29" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="YkaTNAlfi6WA_vxyaF2H-28" target="YkaTNAlfi6WA_vxyaF2H-2">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="YkaTNAlfi6WA_vxyaF2H-28" value="Пользователь системы" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
+        <mxCell id="YkaTNAlfi6WA_vxyaF2H-28" value="Инженер" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
           <mxGeometry x="209" y="716" width="106" height="30" as="geometry" />
         </mxCell>
         <mxCell id="YkaTNAlfi6WA_vxyaF2H-31" value="" style="endArrow=none;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="YkaTNAlfi6WA_vxyaF2H-28">
