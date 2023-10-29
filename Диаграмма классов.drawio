@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-10-29T18:43:41.026Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.5845.931 YaBrowser/23.9.0.0 Safari/537.36" etag="z3r6A6y_80NDj-_7FR6u" version="22.0.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-29T21:41:42.229Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.5845.931 YaBrowser/23.9.0.0 Safari/537.36" etag="Yb-Jbt-G1qwoQ8gQy7Fn" version="22.0.8" type="github">
   <diagram name="Страница — 1" id="9jNxTQTAQ3OMUKz2g4rZ">
-    <mxGraphModel dx="1309" dy="669" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1400" dy="736" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -320,6 +320,9 @@
             <mxPoint x="505" y="4257" as="sourcePoint" />
             <mxPoint x="165" y="4257" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="RiyNbw0ZKuzLqshV5AVt-92" value="+----------------------------------+&#xa;|         Моделирование ВАХ         |&#xa;+----------------------------------+&#xa;|                                  |&#xa;| - данные модели                  |&#xa;| - параметры модели               |&#xa;| - начальные условия              |&#xa;|                                  |&#xa;| + загрузитьДанныеМодели()        |&#xa;| + подготовитьМодель()            |&#xa;| + моделироватьВАХ()              |&#xa;| + сохранитьРезультаты()          |&#xa;|                                  |&#xa;+----------------------------------+&#xa;                 |&#xa;                 |&#xa;                 V&#xa;+----------------------------------+&#xa;|             Данные Модели         |&#xa;+----------------------------------+&#xa;|                                  |&#xa;| - данные                         |&#xa;|                                  |&#xa;| + получитьДанные()               |&#xa;| + установитьДанные()             |&#xa;|                                  |&#xa;+----------------------------------+&#xa;                 ^&#xa;                 |&#xa;+----------------------------------+&#xa;|          Параметры Модели         |&#xa;+----------------------------------+&#xa;|                                  |&#xa;| - параметры                      |&#xa;|                                  |&#xa;| + получитьПараметры()            |&#xa;| + установитьПараметры()          |&#xa;|                                  |&#xa;+----------------------------------+&#xa;                 ^&#xa;                 |&#xa;+----------------------------------+&#xa;|       Начальные Условия           |&#xa;+----------------------------------+&#xa;|                                  |&#xa;| - условия                        |&#xa;|                                  |&#xa;| + получитьУсловия()              |&#xa;| + установитьУсловия()            |&#xa;|                                  |&#xa;+----------------------------------+" style="text;whiteSpace=wrap;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="-85.66673278808594" y="4822.333354949951" width="287" height="1001" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
