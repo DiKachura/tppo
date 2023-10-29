@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-10-29T09:30:21.390Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.5845.888 YaBrowser/23.9.0.0 Safari/537.36" etag="Vzd5WuHe2OO7vUYW6HU9" version="22.0.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-29T09:42:25.089Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.5845.888 YaBrowser/23.9.0.0 Safari/537.36" etag="DA6qKSdZuJeAZEzEtwGh" version="22.0.8" type="github">
   <diagram name="Страница — 1" id="vQouEIOPN6PkB7e56rXw">
-    <mxGraphModel dx="909" dy="669" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1012" dy="736" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -129,6 +129,51 @@
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="983" y="531" as="sourcePoint" />
             <mxPoint x="1279" y="536" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YkaTNAlfi6WA_vxyaF2H-49" value="Письмо с кодом &lt;br&gt;на электронную&lt;br&gt;почту" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="YkaTNAlfi6WA_vxyaF2H-44" target="YkaTNAlfi6WA_vxyaF2H-48">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YkaTNAlfi6WA_vxyaF2H-44" value="Ввод всех данных в регистрации профиля" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="303" y="1740" width="152" height="87" as="geometry" />
+        </mxCell>
+        <mxCell id="YkaTNAlfi6WA_vxyaF2H-45" value="Данные о клиенте" style="endArrow=classic;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="YkaTNAlfi6WA_vxyaF2H-44">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="64" y="1784" as="sourcePoint" />
+            <mxPoint x="131" y="1727" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YkaTNAlfi6WA_vxyaF2H-46" value="Документация об &lt;br&gt;обработке персональными &lt;br&gt;данными" style="endArrow=classic;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="YkaTNAlfi6WA_vxyaF2H-44">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="379" y="1594" as="sourcePoint" />
+            <mxPoint x="374" y="1611" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YkaTNAlfi6WA_vxyaF2H-47" value="Инженер" style="endArrow=classic;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" target="YkaTNAlfi6WA_vxyaF2H-44">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="379" y="2009" as="sourcePoint" />
+            <mxPoint x="414" y="1959" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YkaTNAlfi6WA_vxyaF2H-48" value="Подтверждение профиля через электронную почту" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="665" y="1742.5" width="149" height="82" as="geometry" />
+        </mxCell>
+        <mxCell id="YkaTNAlfi6WA_vxyaF2H-50" value="" style="endArrow=none;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="407" y="1918" as="sourcePoint" />
+            <mxPoint x="739" y="1918" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YkaTNAlfi6WA_vxyaF2H-51" value="" style="endArrow=classic;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" target="YkaTNAlfi6WA_vxyaF2H-48">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="740" y="1920" as="sourcePoint" />
+            <mxPoint x="838" y="1855" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YkaTNAlfi6WA_vxyaF2H-52" value="Профиль клиента" style="endArrow=classic;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="YkaTNAlfi6WA_vxyaF2H-48">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="899" y="1768" as="sourcePoint" />
+            <mxPoint x="982" y="1779" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
