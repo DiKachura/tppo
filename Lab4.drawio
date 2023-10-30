@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-10-30T07:11:27.205Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.5845.931 YaBrowser/23.9.0.0 Safari/537.36" etag="7KhzmZv8APaU5HRvtM7e" version="22.0.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-30T07:26:20.094Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.5845.931 YaBrowser/23.9.0.0 Safari/537.36" etag="cLO84lLLYy9XQ1Vzx-dR" version="22.0.8" type="github">
   <diagram name="Страница — 1" id="vQouEIOPN6PkB7e56rXw">
-    <mxGraphModel dx="1633" dy="1787" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1880" dy="1904" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -310,6 +310,53 @@
         </mxCell>
         <mxCell id="YeHYiD4mHAdUSC_7zXwf-47" value="формирование структуры данных для передачи параметров в модель" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1084" y="-639.5" width="132" height="77" as="geometry" />
+        </mxCell>
+        <mxCell id="YeHYiD4mHAdUSC_7zXwf-49" value="&lt;p style=&quot;padding: 0px; margin: 0px; line-height: calc(1em + 0.4375rem); color: rgb(0, 0, 0); font-family: -apple-system, system-ui, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, Oxygen-Sans, Ubuntu, Cantarell, &amp;quot;Helvetica Neue&amp;quot;, sans-serif; font-size: 18px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(247, 247, 247); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;Декомпозиция задачи &quot;Моделирование ВАХ&quot; на подзадачи может выглядеть следующим образом:&lt;/p&gt;&lt;ol style=&quot;list-style: decimal; padding: 0 0 0 var(--pdl-spacing-3xl); margin: 0 0 var(--pdl-spacing-xl) 0; color: rgb(0, 0, 0); font-family: -apple-system, system-ui, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, Oxygen-Sans, Ubuntu, Cantarell, &amp;quot;Helvetica Neue&amp;quot;, sans-serif; font-size: 18px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(247, 247, 247); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;&lt;li style=&quot;padding: 0px; margin: 0px;&quot;&gt;&lt;p style=&quot;padding: 0px; margin-top: 0px; margin-right: 0px; margin-bottom: var(--pdl-spacing-sm); margin-left: 0px; line-height: calc(1em + 0.4375rem);&quot;&gt;Загрузка данных модели:&lt;/p&gt;&lt;ul style=&quot;list-style: disc; padding: 0 0 0 var(--pdl-spacing-3xl); margin: 0 0 var(--pdl-spacing-xl) 0;&quot;&gt;&lt;li style=&quot;padding: 0px; margin: 0px;&quot;&gt;Получение данных модели, которые будут использоваться при моделировании ВАХ.&lt;/li&gt;&lt;li style=&quot;padding: 0px; margin: 0px;&quot;&gt;Проверка корректности полученных данных модели.&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;&lt;li style=&quot;padding: 0px; margin: 0px;&quot;&gt;&lt;p style=&quot;padding: 0px; margin-top: 0px; margin-right: 0px; margin-bottom: var(--pdl-spacing-sm); margin-left: 0px; line-height: calc(1em + 0.4375rem);&quot;&gt;Подготовка модели:&lt;/p&gt;&lt;ul style=&quot;list-style: disc; padding: 0 0 0 var(--pdl-spacing-3xl); margin: 0 0 var(--pdl-spacing-xl) 0;&quot;&gt;&lt;li style=&quot;padding: 0px; margin: 0px;&quot;&gt;Инициализация модели и её компонентов.&lt;/li&gt;&lt;li style=&quot;padding: 0px; margin: 0px;&quot;&gt;Установка параметров модели на основе полученных данных.&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;&lt;li style=&quot;padding: 0px; margin: 0px;&quot;&gt;&lt;p style=&quot;padding: 0px; margin-top: 0px; margin-right: 0px; margin-bottom: var(--pdl-spacing-sm); margin-left: 0px; line-height: calc(1em + 0.4375rem);&quot;&gt;Выполнение моделирования:&lt;/p&gt;&lt;ul style=&quot;list-style: disc; padding: 0 0 0 var(--pdl-spacing-3xl); margin: 0 0 var(--pdl-spacing-xl) 0;&quot;&gt;&lt;li style=&quot;padding: 0px; margin: 0px;&quot;&gt;Запуск процесса моделирования ВАХ на основе подготовленной модели и заданных параметров.&lt;/li&gt;&lt;li style=&quot;padding: 0px; margin: 0px;&quot;&gt;Итеративное выполнение шагов моделирования для каждого компонента или устройства.&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;&lt;li style=&quot;padding: 0px; margin: 0px;&quot;&gt;&lt;p style=&quot;padding: 0px; margin-top: 0px; margin-right: 0px; margin-bottom: var(--pdl-spacing-sm); margin-left: 0px; line-height: calc(1em + 0.4375rem);&quot;&gt;Получение результатов моделирования:&lt;/p&gt;&lt;ul style=&quot;list-style: disc; padding: 0 0 0 var(--pdl-spacing-3xl); margin: 0 0 var(--pdl-spacing-xl) 0;&quot;&gt;&lt;li style=&quot;padding: 0px; margin: 0px;&quot;&gt;Получение результирующих данных в виде вольтамперных характеристик или других показателей, соответствующих моделируемым компонентам или устройствам.&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;&lt;li style=&quot;padding: 0px; margin: 0px;&quot;&gt;&lt;p style=&quot;padding: 0px; margin-top: 0px; margin-right: 0px; margin-bottom: var(--pdl-spacing-sm); margin-left: 0px; line-height: calc(1em + 0.4375rem);&quot;&gt;Анализ результатов:&lt;/p&gt;&lt;ul style=&quot;list-style: disc; padding: 0 0 0 var(--pdl-spacing-3xl); margin: 0 0 var(--pdl-spacing-xl) 0;&quot;&gt;&lt;li style=&quot;padding: 0px; margin: 0px;&quot;&gt;Проведение анализа полученных результатов моделирования.&lt;/li&gt;&lt;li style=&quot;padding: 0px; margin: 0px;&quot;&gt;Сравнение с ожидаемыми значениями или требованиями.&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;&lt;li style=&quot;padding: 0px; margin: 0px;&quot;&gt;&lt;p style=&quot;padding: 0px; margin-top: 0px; margin-right: 0px; margin-bottom: var(--pdl-spacing-sm); margin-left: 0px; line-height: calc(1em + 0.4375rem);&quot;&gt;Сохранение результатов:&lt;/p&gt;&lt;ul style=&quot;list-style: disc; padding: 0 0 0 var(--pdl-spacing-3xl); margin: 0 0 var(--pdl-spacing-xl) 0;&quot;&gt;&lt;li style=&quot;padding: 0px; margin: 0px;&quot;&gt;Сохранение полученных результатов моделирования для дальнейшего использования.&lt;/li&gt;&lt;li style=&quot;padding: 0px; margin: 0px;&quot;&gt;Создание отчета о выполненном моделировании ВАХ.&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;&lt;/ol&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1659.998829549154" y="-679.0022290039065" width="550" height="611" as="geometry" />
+        </mxCell>
+        <mxCell id="YeHYiD4mHAdUSC_7zXwf-58" value="&lt;br&gt;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;установка параметров &lt;br&gt;модели на основе &lt;br&gt;полученных данных&lt;/span&gt;&lt;br&gt;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="YeHYiD4mHAdUSC_7zXwf-50" target="YeHYiD4mHAdUSC_7zXwf-57">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YeHYiD4mHAdUSC_7zXwf-50" value="подготовка модели" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2545" y="-627" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YeHYiD4mHAdUSC_7zXwf-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2349" y="-619" as="sourcePoint" />
+            <mxPoint x="2545" y="-619" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YeHYiD4mHAdUSC_7zXwf-52" value="данные &lt;br&gt;о заявителе" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="YeHYiD4mHAdUSC_7zXwf-51">
+          <mxGeometry x="-0.1767" relative="1" as="geometry">
+            <mxPoint y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YeHYiD4mHAdUSC_7zXwf-53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2352" y="-569" as="sourcePoint" />
+            <mxPoint x="2545" y="-569" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YeHYiD4mHAdUSC_7zXwf-54" value="проверка &lt;br&gt;требований &lt;br&gt;параметров" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="YeHYiD4mHAdUSC_7zXwf-53">
+          <mxGeometry x="-0.2165" y="5" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YeHYiD4mHAdUSC_7zXwf-60" value="итеративное выполнение &lt;br&gt;шагов моделирования" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="YeHYiD4mHAdUSC_7zXwf-57" target="YeHYiD4mHAdUSC_7zXwf-59">
+          <mxGeometry x="0.0012" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YeHYiD4mHAdUSC_7zXwf-57" value="запуск процесса моделирования ВАХ на основе подготовленной модели и заданных параметров" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2857" y="-639.5" width="161" height="81" as="geometry" />
+        </mxCell>
+        <mxCell id="YeHYiD4mHAdUSC_7zXwf-62" value="результирующие &lt;br&gt;данные ВАХ" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="YeHYiD4mHAdUSC_7zXwf-59">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="3598" y="-597" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YeHYiD4mHAdUSC_7zXwf-59" value="получение результатов моделирования" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="3299" y="-637.5" width="161" height="81" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
