@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-11-27T18:25:21.426Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.5845.686 YaBrowser/23.9.0.0 Safari/537.36" etag="aSCy4FVVqnaPJjgkYmzg" version="22.1.4" type="github">
+<mxfile host="app.diagrams.net" modified="2023-11-27T18:28:38.037Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.5845.686 YaBrowser/23.9.0.0 Safari/537.36" etag="dy72jREGkUNDxVubbjxR" version="22.1.4" type="github">
   <diagram name="Страница — 1" id="VoEZJo4x_uYEtXxC_7kK">
-    <mxGraphModel dx="480" dy="549" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="693" dy="793" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -118,6 +118,21 @@
         </mxCell>
         <mxCell id="uDlhfajTU3gqzJsvabU9-28" value="PhotovoltaicModel.py&lt;br&gt;&lt;span class=&quot;a&quot;&gt;&lt;span style=&quot;font-size:14.0pt;&lt;br/&gt;line-height:150%;mso-fareast-font-family:Calibri;mso-fareast-theme-font:minor-latin;&lt;br/&gt;mso-ansi-language:RU;mso-fareast-language:EN-US;mso-bidi-language:AR-SA&quot;&gt;«file»&lt;/span&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
           <mxGeometry x="75" y="841" width="152" height="84" as="geometry" />
+        </mxCell>
+        <mxCell id="uDlhfajTU3gqzJsvabU9-36" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="uDlhfajTU3gqzJsvabU9-33" target="uDlhfajTU3gqzJsvabU9-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uDlhfajTU3gqzJsvabU9-37" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="uDlhfajTU3gqzJsvabU9-33" target="uDlhfajTU3gqzJsvabU9-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uDlhfajTU3gqzJsvabU9-33" value="&lt;span class=&quot;a&quot;&gt;&lt;span style=&quot;font-size:14.0pt;&lt;br/&gt;line-height:150%;mso-fareast-font-family:Calibri;mso-fareast-theme-font:minor-latin;&lt;br/&gt;mso-ansi-language:RU;mso-fareast-language:EN-US;mso-bidi-language:AR-SA&quot;&gt;«processor»&lt;br&gt;&lt;/span&gt;&lt;/span&gt;компьютер" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="875" y="472" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="uDlhfajTU3gqzJsvabU9-34" value="&lt;span class=&quot;a&quot;&gt;&lt;span style=&quot;font-size:14.0pt;&lt;br/&gt;line-height:150%;mso-fareast-font-family:Calibri;mso-fareast-theme-font:minor-latin;&lt;br/&gt;mso-ansi-language:RU;mso-fareast-language:EN-US;mso-bidi-language:AR-SA&quot;&gt;«database»&lt;br&gt;&lt;/span&gt;&lt;/span&gt;PostgreSQL" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="750" y="596" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="uDlhfajTU3gqzJsvabU9-35" value="&lt;span class=&quot;a&quot;&gt;&lt;span style=&quot;font-size:14.0pt;&lt;br/&gt;line-height:150%;mso-fareast-font-family:Calibri;mso-fareast-theme-font:minor-latin;&lt;br/&gt;mso-ansi-language:RU;mso-fareast-language:EN-US;mso-bidi-language:AR-SA&quot;&gt;«executeble»&lt;br&gt;&lt;/span&gt;&lt;/span&gt;login.py" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="990" y="594" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
